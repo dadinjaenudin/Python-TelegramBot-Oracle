@@ -67,8 +67,8 @@ def on_callback_query(msg):
                 set trimspool on
                 spool d:\salesybplu.txt
 
-                connect IRS/IRS041972@ASTRO
-                select * from uom_mst;
+                connect user/password
+                select * from table;
                 exit
 
                 """
